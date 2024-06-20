@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    margin: 0;
+    
+}
+.header1 ul{
+    background-color:#2e2d2d ;
+    height: 40px;
+    margin: 0;
+    
+}
+.header1 ul li {
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+    
+}
+.header1 ul li a{
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 10px;  
+    font-size: 14px;
+    
+}
+.header1 ul li a:hover{
+    background-color: #666666;
+    color: orange;
+    
+}
+.header1 div{
+    color: #ffffff;
+    height: 500px;
+    background: url("slideshow1.jpg") no-repeat center center /cover;
+    text-align: center;
+    
+}
+.header1 div h1{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.header1 div p{
+    text-align: justify;
+    padding: 0px 40px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 2;
+    font-size: 16px;
+
+}
+.header1 div a{
+    color: #333333;
+    background-color: #dddddd;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 5px 15px;
+    
+    
+    
+}
+.header1 div a:hover{
+    background-color: #666666;
+    color: orange;
+    
+}
+.box-right{
+    color: #eeeeee;
+    line-height: 22px;
+    text-align: justify;
+    background-color: #555555;
+    padding: 5px 30px;
+    float: right;
+    font-size: 14px;
+    
+}
+.box-right h2{
+    margin-top: 0;
+}
+.box-left , .box-right{
+    width: 50%;
+    height: 250px;
+    
+}
+.box-left{
+    float: left;
+    background: url("hotel.jpeg") no-repeat center center /cover;
+}
+.box{
+    width: 33.3%;
+    text-align: center;
+    float: right;
+    font-size: 13px;
+    padding: 15px;
+}
+.box p{
+    text-align: justify;
+    line-height: 20px;
+}
+.bg-antiquewhite{
+    background-color: antiquewhite;
+}
+.bg-lightblue{
+    background-color: lightblue;
+}
+footer{
+    background-color: #000;
+    text-align: center;
+    color:#eeeeee;
+    font-size: 12px; 
+    clear: both;   
+    height: 20px;
+    padding-top: 3px;
+}
+
+.about-right{
+    height:300px;
+    float: right;
+    width: 50%;
+    padding: 0px 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+.about-right h2{
+    color: #a35e5e;
+    text-align: center;
+    margin: 10px;
+}
+.about-right p{
+    text-align: justify;
+}
+.img-left{
+    text-align: center;
+}
+.img-left img{
+    width: 50%;
+    height: 300px;
+    float: left;
+    border-radius: 50%;
+    padding: 60px 10px ;
+     
+}
+.container{
+    min-height: 750px;
+}
+.persons{
+    clear: both;
+    background: url(comment.jpeg) center center /cover;
+    padding: 20px 5px;
+    height: 450px;
+}
+.person1 img ,.person2 img{
+    float: right;
+    height: 100px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+    
+    
+    
+
+}
+.person1 , .person2{
+    height: 140px;
+    padding: 1px 20px 20px 20px;
+    background-color: rgba(235, 128, 29, 0.7);
+    margin: 30px 10px;
+    border-radius: 10%;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contact-page{
+    height: 540px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+}
+.top-text{
+    margin: 100px auto;
+}
+.top-text p{
+    font-size: 15px;
+    width: 450px;
+}
+
+.contact-page input  , .contact-page textarea{
+    width: 95%;
+    padding:7px;
+    margin: 15px ;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    
+}
+.send-button input{
+    background-color: #2e2d2d;
+    color: #ddd;
+    width: 100px;
+    
+}
+.send-button input:hover{
+    color: orange;
+    
+
+}
+.contact-page label{
+    
+    padding-right: 15px;
+}
+
+@media screen and (max-width:768px){
+    .box-right{
+        display: block;
+        width: 100%;
+    }
+    .box-left{
+        display: none;
+    }
+    .box{
+        display: block;
+        width: 100%;
+    }
+    .about-right,.img-left img{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .img-left img{
+        border-radius: 1px;
+        padding:5px;
+        
+    }
+    .person1 ,.person2{
+        font-size: 11px;;
+    }
+    body{
+        background-color: #d4d3d3;
+    }
+}
+  
